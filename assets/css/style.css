@@ -173,4 +173,12 @@ header {
     gap: 20px;
 }
 
+/* -------- CTA TEAMS SECTION -------- */
+
+#teams-cta h2 {
+    margin-bottom: 50px;
+}
+
+/* -------- COMPANIES SECTION -------- */
+
 /* !SECTION MAIN */
