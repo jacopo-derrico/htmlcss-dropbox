@@ -2,4 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    border: 1px dashed black;
+}
+
+.flex-container {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+header {
+    align-items: center;
+    justify-content: space-between;
 }
