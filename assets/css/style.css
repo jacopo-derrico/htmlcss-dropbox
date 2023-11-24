@@ -154,4 +154,23 @@ header {
     gap: 30px;
 }
 
+/* -------- BUSINESS SECTION -------- */
+
+#business {
+    flex-direction: column;
+}
+
+.all-features {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3%;
+}
+
+.business-feature {
+    width: calc((100% / 3) - 3%);
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 20px;
+}
+
 /* !SECTION MAIN */
