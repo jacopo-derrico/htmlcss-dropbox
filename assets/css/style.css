@@ -180,5 +180,71 @@ header {
 }
 
 /* -------- COMPANIES SECTION -------- */
+/* TODO fix florids svg e border design */
+#companies {
+    margin-top: 100px;
+}
+
+.companies-section {
+    width: calc(100vw / 3);
+}
+
+.companies {
+    flex-wrap: wrap;
+}
+
+.company-focus {
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+.company-focus svg {
+    width: 100%;
+}
+
+.company {
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+    justify-content: center;
+    align-items: center;
+}
+
+.company svg {
+    width: 50%;
+    fill: white;
+}
+
+/* -------- COMPANIES BACKGROUNDS -------- */
+.companies-left .company:first-child {
+    background-color: #A2D39B;
+}
+
+.companies-left .company:nth-child(2) {
+    background-color: #61082B;
+}
+
+.companies-left .company:nth-child(3) {
+    background-color: #0093CE;
+}
+
+.companies-left .company:nth-child(4) {
+    background-color: #FF1C1C;
+}
+
+.companies-right .company:first-child {
+    background-color: #D5011F;
+}
+
+.companies-right .company:nth-child(2) {
+    background-color: #B4D0E7;
+}
+
+.companies-right .company:nth-child(3) {
+    background-color: #0D2481;
+}
+
+.companies-right .company:nth-child(4) {
+    background-color: #FFD82F;
+}
 
 /* !SECTION MAIN */
