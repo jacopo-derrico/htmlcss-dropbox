@@ -12,7 +12,7 @@
 
 <body>
 
-    <!-- HEADER -->
+    <!-- SECTION HEADER -->
     <header class="flex-container">
         <div class="flex-container">
             <figure>
@@ -35,11 +35,12 @@
             </ul>
         </div>
     </header>
+    <!-- !SECTION HEADER -->
 
-    <!-- MAIN SECTION -->
+    <!-- SECTION MAIN -->
     <main>
 
-        <!-- JUMBO SECTION -->
+        <!-- SECTION JUMBO -->
         <section id="jumbo">
             <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <div class="flex-container">
@@ -47,7 +48,7 @@
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
                         posto. Dropbox Business è più di uno spazio di archiviazione siicuro: è un modo intelligente e
                         integrato per ottimizzare il flusso di lavoro esistente.</p>
-                    <button>Inizia la tua prova gratuita</button>
+                    <button class="btn">Inizia la tua prova gratuita</button>
                     <p>Annulla in qualsiasi momento</p>
                     <span></span>
                 </div>
@@ -56,9 +57,154 @@
                 </figure>
             </div>
         </section>
-        <section>
+        <!-- !SECTION JUMBO -->
+
+        <!-- SECTION PLAN BUSINESS -->
+        <section class="main-section">
+            <h2>Trova il piano business che fa per te</h2>
+
+            <div class="flex-container" id="plans-title">
+                <div>
+                    <input type="radio" id="monthly" name="plan" value="month">
+                    <label for="monthly">Fatturazione mensile</label>
+                </div>
+                <div>
+                    <input type="radio" id="annually" name="plan" value="year">
+                    <label for="annually">Fatturazione annuale</label>
+                </div>
+            </div>
+
+            <div class="flex-container cards">
+                <!-- CARD 1 -->
+                <div>
+                    <h5 id="single-card" class="card-title">Singolo</h5>
+                    <div class="flex-container card">
+                        <div class="card-type">
+                            <h3>Professional</h3>
+                            <h5>&euro; 12.00</h5>
+                            <p>/mese</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="user">1 utente</li>
+                                <li class="storage">5 TB di spazio di archiviazione</li>
+                                <li class="functions">Funzioni di produttività premium e condivisione file semplice e
+                                    sicura
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="btn">Prova gratis per 30 giorni</button>
+                            <p>
+                                oppure <a href="#">acquista ora</a>
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h5>Punti Salienti del piano</h5>
+                            <ul>
+                                <li>Nessun limite di spazio per i file</li>
+                                <li>Cartelle offline su dispositivi mobili</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div>
+                    <h5 id="team-card" class="card-title">Team</h5>
+                    <div class="flex-container card">
+                        <div class="card-type">
+                            <h3>Advanced</h3>
+                            <h5>&euro; 18.00</h5>
+                            <p>/mese</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="user">3 o più utenti</li>
+                                <li class="storage">Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                <li class="functions">Sofisticate funzioni di controllo e per tenere al sicuro tutti i
+                                    file
+                                    del tuo team
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="btn">Prova gratis per 30 giorni</button>
+                            <p>
+                                oppure <a href="#">acquista ora</a>
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h5>Punti Salienti del piano</h5>
+                            <ul>
+                                <li>Invia file fino a 100 GB con Dropbox Transfer</li>
+                                <li>Cartelle offline su dispositivi mobili</li>
+                                <li>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                <li>Possibilità di inserire nuovi membri del team</li>
+                                <li>Gestione dei permessi in base ai ruoli</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div>
+                    <h5 id="company-card" class="card-title">Azienda</h5>
+                    <div class="flex-container card">
+                        <div class="card-type">
+                            <h3>Enterprise</h3>
+                            <h5>Contattaci</h5>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="user">10 o più utenti</li>
+                                <li class="storage">Soluziooni personalizzabili per la tua azienda</li>
+                                <li class="functions">Assistenza personalizzata per aiutare gli amministtratori in una
+                                    gestione su larga scala
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="btn">Contattaci</button>
+                            <p>
+                                oppure <a href="#">acquista ora</a>
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h5>Punti Salienti del piano</h5>
+                            <ul>
+                                <li>Cartelle offline su dispositivi mobili</li>
+                                <li>Servizio assistenza 24/h</li>
+                                <li>Possibilità di personalizzazione totale</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD ORIZZONTALE -->
+            <div class="flex-container" id="last-card">
+                <h5 id="enterprise-card" class="card-title">Enterprise</h5>
+                <div class="flex-container last-card">
+                    <div>
+                        <h3>Enterprise</h3>
+                        <h5>Contattaci</h5>
+                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione
+                            su
+                            qualsiasi scale.</p>
+                    </div>
+                    <div>
+                        <button class="btn">Contatta l'ufficio vendite</button>
+                    </div>
+                </div>
+            </div>
+
 
         </section>
+        <!-- !SECTION PLAN BUSINESS -->
+
         <section>
 
         </section>
@@ -78,6 +224,7 @@
 
         </section>
     </main>
+    <!-- !SECTION MAIN -->
 </body>
 
 </html>

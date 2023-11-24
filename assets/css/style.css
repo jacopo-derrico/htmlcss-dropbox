@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .flex-container {
@@ -20,8 +20,9 @@ ul {
     font-size: 16px;
 }
 
-/* TYPOGRAPHY */
+/* SECTION TYPOGRAPHY */
 
+/* TODO change font size in em */
 html {
     font-family: sans-serif;
 }
@@ -30,13 +31,29 @@ h1 {
     font-size: 50px;
 }
 
-/* HEADER */
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+/* !SECTION TYPOGRAPHY */
+
+/* SECTION HEADER */
 header {
     align-items: center;
     justify-content: space-between;
 }
 
-/* JUMBO SECTION */
+/* !SECTION HEADER */
+
+/* SECTION JUMBO */
 
 #jumbo {
     background-color: #B4D0E7;
@@ -63,3 +80,66 @@ header {
 #jumbo figure {
     flex-basis: 70%;
 }
+
+/* !SECTION JUMBO */
+
+/* SECTION MAIN */
+
+.main-section {
+    padding-inline: 23%;
+    margin-top: 100px;
+}
+
+#plans-title {
+    margin-block: 40px;
+    gap: 20px;
+}
+
+#plans-title h2 {
+    margin-bottom: 50px;
+}
+
+.card-type {
+    margin-top: 30px;
+}
+
+.cards {
+    gap: 5%;
+}
+
+.card {
+    padding-inline: 8%;
+    border: 1px solid rgba(0, 0, 0, 0.084);
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+}
+
+.card-title {
+    border: 1px solid rgba(0, 0, 0, 0.084);
+    border-bottom: none;
+    text-align: center;
+}
+
+.card li {
+    padding-block: 10px;
+}
+
+.last-card {
+    justify-content: space-between;
+    padding-inline: 2%;
+    padding-block: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.084);
+
+}
+
+#last-card {
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.last-card div:first-child {
+    flex-basis: 60%;
+}
+
+/* !SECTION MAIN */
