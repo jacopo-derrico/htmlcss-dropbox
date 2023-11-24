@@ -20,7 +20,46 @@ ul {
     font-size: 16px;
 }
 
+/* TYPOGRAPHY */
+
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+/* HEADER */
 header {
     align-items: center;
     justify-content: space-between;
+}
+
+/* JUMBO SECTION */
+
+#jumbo {
+    background-color: #B4D0E7;
+    padding-inline: 20%;
+    padding-top: 80px;
+}
+
+#jumbo>div {
+    padding-top: 50px;
+}
+
+#jumbo figure img {
+    width: 100%;
+}
+
+#jumbo-cta {
+    flex-basis: 30%;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-between; */
+    padding-right: 20px;
+}
+
+#jumbo figure {
+    flex-basis: 70%;
 }
