@@ -14,12 +14,13 @@ ul {
     list-style-type: none;
 }
 
-/* TODO a style */
-/* TODO buttons style */
-.btn {
+/* TODO buttons styles */
+.btn-blue {
     border: none;
-    padding: 10px;
+    padding: 8px 20px;
     font-size: 16px;
+    background-color: #0061FF;
+    color: white;
 }
 
 .norm-img {
@@ -55,6 +56,19 @@ h5 {
 header {
     align-items: center;
     justify-content: space-between;
+    padding: 10px 1%;
+}
+
+.header-ul {
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    font-weight: 300;
 }
 
 /* !SECTION HEADER */
