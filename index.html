@@ -8,6 +8,11 @@
 
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- FONT AWESOME -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css'
+        integrity='sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=='
+        crossorigin='anonymous' />
+    <link rel="stylesheet" href="">
 </head>
 
 <body>
@@ -45,12 +50,19 @@
             <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <div class="flex-container">
                 <div id="jumbo-cta" class="flex-container">
-                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
-                        posto. Dropbox Business è più di uno spazio di archiviazione siicuro: è un modo intelligente e
-                        integrato per ottimizzare il flusso di lavoro esistente.</p>
-                    <button class="btn-blue">Inizia la tua prova gratuita</button>
-                    <p>Annulla in qualsiasi momento</p>
-                    <span></span>
+                    <div>
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
+                            posto. Dropbox Business è più di uno spazio di archiviazione siicuro: è un modo intelligente
+                            e
+                            integrato per ottimizzare il flusso di lavoro esistente.</p>
+                        <div>
+                            <button class="btn-blue">Inizia la tua prova gratuita</button>
+                        </div>
+                        <p>Annulla in qualsiasi momento</p>
+                    </div>
+                    <div>
+                        <a href="#plans" class="fa-solid fa-arrow-down"></a>
+                    </div>
                 </div>
                 <figure>
                     <img class="norm-img" src="./assets/img/jumbo.png" alt="dropbox window example">
@@ -61,7 +73,7 @@
 
         <!-- SECTION PLAN BUSINESS -->
         <section class="main-section">
-            <h2>Trova il piano business che fa per te</h2>
+            <h2 id="plans">Trova il piano business che fa per te</h2>
 
             <div class="flex-container" id="plans-title">
                 <div>
