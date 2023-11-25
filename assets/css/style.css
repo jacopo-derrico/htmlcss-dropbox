@@ -181,6 +181,7 @@ header {
 
 /* -------- COMPANIES SECTION -------- */
 /* TODO fix florids svg e border design */
+
 #companies {
     margin-top: 100px;
 }
@@ -258,6 +259,29 @@ header {
 
 #company-cta h2 {
     flex-basis: 60%;
+}
+
+/* -------- FAQ SECTION -------- */
+
+#faq h2 {
+    margin-bottom: 40px;
+}
+
+#faq hr {
+    border-color: rgba(0, 0, 0, 0.319);
+}
+
+.faq-answer {
+    display: none;
+    margin-block: 30px;
+}
+
+.faq-question {
+    margin-block: 30px;
+}
+
+.faq-row:hover .faq-answer {
+    display: block;
 }
 
 /* !SECTION MAIN */
