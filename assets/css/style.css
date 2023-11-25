@@ -64,19 +64,36 @@ h5 {
 header {
     align-items: center;
     justify-content: space-between;
-    padding: 10px 1%;
+    /* padding: 10px 1%; */
+    height: 80px;
 }
+
+/* header nav {
+    height: 100%;
+    align-items: center;
+} */
 
 .header-ul {
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    height: 100%;
+}
+
+header li {
+    padding-block: calc((80px - 1em - 2px) / 2);
+}
+
+.hover-select:hover {
+    border-bottom: 2px inset #0061FF;
+    padding-bottom: calc(((80px - 1em - 2px) / 2) - 2px);
 }
 
 header a {
     text-decoration: none;
     color: rgb(99, 99, 99);
     font-weight: 300;
+    padding-top: 50px;
 }
 
 /* !SECTION HEADER */
