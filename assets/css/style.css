@@ -14,6 +14,8 @@ ul {
     list-style-type: none;
 }
 
+/* TODO a style */
+/* TODO buttons style */
 .btn {
     border: none;
     padding: 10px;
@@ -285,3 +287,47 @@ header {
 }
 
 /* !SECTION MAIN */
+
+/* SECTION FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+    padding-inline: 20%;
+    padding-block: 50px 30px;
+    margin-top: 100px;
+}
+
+#footer-menu {
+    justify-content: space-between;
+}
+
+#footer-menu h4 {
+    margin-bottom: 20px;
+}
+
+#footer-menu li {
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+#footer-menu li a {
+    color: white;
+}
+
+hr {
+    margin-block: 50px 30px;
+    width: 100px;
+}
+
+.languages::before {
+    content: ;
+}
+
+.languages::after {
+    content: "\23f6";
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+/* !SECTION FOOTER */
