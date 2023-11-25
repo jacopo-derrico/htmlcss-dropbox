@@ -247,4 +247,17 @@ header {
     background-color: #FFD82F;
 }
 
+/* -------- CTA COMPANY SECTION -------- */
+
+#company-cta {
+    background-color: #B4D0E7;
+    margin-top: 0;
+    padding-block: 100px;
+    justify-content: space-between;
+}
+
+#company-cta h2 {
+    flex-basis: 60%;
+}
+
 /* !SECTION MAIN */
