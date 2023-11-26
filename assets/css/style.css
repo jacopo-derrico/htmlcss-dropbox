@@ -39,6 +39,10 @@ ul {
     border: 1px solid black;
 }
 
+#company-cta .btn-white {
+    border: none;
+}
+
 /* !SECTION BUTTONS */
 
 .norm-img {
@@ -449,7 +453,16 @@ header a {
 }
 
 #company-cta h2 {
-    flex-basis: 60%;
+    flex-basis: 50%;
+    color: #61142F;
+}
+
+#company-cta div {
+    flex-basis: 30%;
+}
+
+#company-cta button {
+    width: 100%;
 }
 
 /* -------- FAQ SECTION -------- */
@@ -459,7 +472,7 @@ header a {
 }
 
 #faq hr {
-    border-color: rgba(0, 0, 0, 0.319);
+    border-color: 0.5px solid rgba(0, 0, 0, 0.084);
 }
 
 .faq-answer {
@@ -469,6 +482,12 @@ header a {
 
 .faq-question {
     margin-block: 30px;
+    justify-content: space-between;
+}
+
+.faq-question i {
+    margin-right: 50px;
+    font-size: 14px;
 }
 
 .faq-row:hover .faq-answer {
@@ -504,7 +523,7 @@ footer {
     color: white;
 }
 
-hr {
+footer hr {
     margin-block: 50px 30px;
     width: 100px;
 }
