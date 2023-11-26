@@ -28,6 +28,10 @@ ul {
     font-weight: 300;
 }
 
+.btn:hover {
+    opacity: 70%;
+}
+
 .btn-blue {
     background-color: #0061FF;
     color: white;
