@@ -64,14 +64,9 @@ h5 {
 header {
     align-items: center;
     justify-content: space-between;
-    /* padding: 10px 1%; */
+    padding-inline: 1%;
     height: 80px;
 }
-
-/* header nav {
-    height: 100%;
-    align-items: center;
-} */
 
 .header-ul {
     align-items: center;
@@ -164,8 +159,22 @@ header a {
     margin-top: 30px;
 }
 
+.card-type h5 {
+    margin-block: 15px;
+}
+
+.card-type p {
+    font-weight: 300;
+    color: rgb(99, 99, 99);
+}
+
 .cards {
     gap: 5%;
+    justify-content: space-between;
+}
+
+.card-container {
+    width: calc((100% / 3) - 2.5%);
 }
 
 .card {
@@ -180,10 +189,13 @@ header a {
     border: 1px solid rgba(0, 0, 0, 0.084);
     border-bottom: none;
     text-align: center;
+    font-weight: 400;
+    padding-block: 7px;
 }
 
 .card li {
     padding-block: 10px;
+    font-size: 0.8em;
 }
 
 .last-card {
@@ -201,6 +213,54 @@ header a {
 
 .last-card div:first-child {
     flex-basis: 60%;
+}
+
+/* Plans' icons */
+
+.benefits {
+    width: 100%;
+}
+
+.benefits li {
+    position: relative;
+    padding-left: 25px;
+    width: inherit;
+}
+
+.user::before {
+    content: '\f007';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    width: 1em;
+    left: 0;
+}
+
+.storage::before {
+    content: '\f07b';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    width: 1em;
+    left: 0;
+}
+
+.functions::before {
+    content: '\f1e0';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    width: 1em;
+    left: 0;
+}
+
+.team::before {
+    content: '\f0c0';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    width: 1em;
+    left: 0;
 }
 
 /* -------- PARTNER SECTION -------- */
@@ -377,9 +437,9 @@ hr {
     width: 100px;
 }
 
-.languages::before {
+/* .languages::before {
     content: ;
-}
+} */
 
 .languages::after {
     content: "\23f6";
