@@ -189,13 +189,25 @@ header a {
     border: 1px solid rgba(0, 0, 0, 0.084);
     border-bottom: none;
     text-align: center;
-    font-weight: 400;
+    font-weight: 300;
     padding-block: 7px;
 }
 
 .card li {
     padding-block: 10px;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.card button {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.card hr {
+    margin-block: 30px;
+    width: 20%;
+    border: 0.5px solid rgba(0, 0, 0, 0.084);
 }
 
 .last-card {
@@ -208,11 +220,23 @@ header a {
 
 #last-card {
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .last-card div:first-child {
     flex-basis: 60%;
+}
+
+.last-card button {
+    margin-top: 20px;
+}
+
+#enterprise {
+    padding-block: 20px;
+}
+
+#enterprise h5 {
+    padding-block: 20px 50px;
 }
 
 /* Plans' icons */
@@ -258,6 +282,22 @@ header a {
     content: '\f0c0';
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
+    position: absolute;
+    width: 1em;
+    left: 0;
+}
+
+.check-list li {
+    position: relative;
+    padding-left: 25px;
+    width: inherit;
+}
+
+.check-list ul li::before {
+    content: '\f00c';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #0061FF;
     position: absolute;
     width: 1em;
     left: 0;
