@@ -20,13 +20,23 @@ ul {
 
 /* SECTION BUTTONS */
 /* TODO buttons styles */
-.btn-blue {
+
+.btn {
     border: none;
     padding: 8px 20px;
     font-size: 15px;
     font-weight: 300;
+}
+
+.btn-blue {
     background-color: #0061FF;
     color: white;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 /* !SECTION BUTTONS */
@@ -56,6 +66,10 @@ h3 {
 
 h5 {
     font-size: 1em;
+}
+
+p {
+    font-weight: 300;
 }
 
 /* !SECTION TYPOGRAPHY */
