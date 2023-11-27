@@ -18,8 +18,11 @@ ul {
     list-style-type: none;
 }
 
+.norm-img {
+    width: 100%;
+}
+
 /* SECTION BUTTONS */
-/* TODO buttons styles */
 
 .btn {
     border: none;
@@ -49,13 +52,8 @@ ul {
 
 /* !SECTION BUTTONS */
 
-.norm-img {
-    width: 100%;
-}
-
 /* SECTION TYPOGRAPHY */
 
-/* TODO change font size in em */
 html {
     font-family: sans-serif;
 }
@@ -88,6 +86,9 @@ header {
     justify-content: space-between;
     padding-inline: 1%;
     height: 80px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
 }
 
 .header-ul {
@@ -120,7 +121,8 @@ header a {
 #jumbo {
     background-color: #B4D0E7;
     padding-inline: 20%;
-    padding-top: 80px;
+    /* + 80px of the fised header */
+    padding-top: 160px;
     /* higher margin to compensate figure negative margin */
     margin-bottom: 170px;
 }
@@ -498,6 +500,10 @@ header a {
     display: block;
 }
 
+.faq-row:hover .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
 /* !SECTION MAIN */
 
 /* SECTION FOOTER */
@@ -527,6 +533,10 @@ footer {
     color: white;
     text-decoration: none;
     font-weight: 300;
+}
+
+#footer-menu li a:hover {
+    opacity: 0.7;
 }
 
 footer hr {
